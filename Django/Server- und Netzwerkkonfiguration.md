@@ -68,7 +68,7 @@ Mit diesen beiden Komponenten wird der Betrieb von Webdiensten stabiler, schnell
 - **Öffnung für CORS-Anfragen:** Ermöglicht es, dass die API von verschiedenen Domänen aus zugänglich ist.
 - **Einschränkungen:** Um Sicherheitsrisiken wie Cross-Site-Request Forgery (CSRF) zu verhindern, sollten CORS-Regeln sorgfältig konfiguriert werden (z.B. nur bestimmte Domänen erlauben, spezifische HTTP-Methoden und Header zulassen).
 
-![[Diagram Server.png]]
+![Alt text](https://github.com/Txpert/python_training/blob/main/Django/Diagram%20Server.png)
 
 ### Reihenfolge der Server- und Netzwerkkonfiguration
 

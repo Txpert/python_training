@@ -20,6 +20,7 @@ for fruit in fruits:
 # Übung 1 - Schreibe den obigen Beispielcode unter Verwendung der List Comprehension-Syntax um. Erstelle eine Variable namens uppercased_fruits, um die Ausgabe der List Comprehension zu speichern. Die Ausgabe sollte ['MANGO', 'KIWI', etc...] sein.
 uppercased_fruits = [fruit.upper() for fruit in fruits]
 print(uppercased_fruits)
+
 # Übung 2 - Erstelle eine Liste, die jede Frucht mit mehr als 5 Zeichen enthält.
 fruits_with_more_than_five_characters = [fruit for fruit in fruits if len(fruit) > 5]
 print(fruits_with_more_than_five_characters)
