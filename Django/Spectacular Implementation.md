@@ -127,3 +127,16 @@ class OrderViewSet(viewsets.ModelViewSet):
 3. **Access ReDoc:**
 
    Alternatively, you can navigate to `http://127.0.0.1:8000/api/schema/redoc/` to see the ReDoc documentation.
+
+**Tipp**
+
+Die `SPECTACULAR_SETTINGS` Variable ermöglicht es dir, grundlegende Informationen und Einstellungen für deine API zentral zu definieren. Diese Einstellungen werden verwendet, um die API-Dokumentation und das Schema automatisch zu generieren.
+
+```python
+SPECTACULAR_SETTINGS = { 
+    "TITLE": "My Playground API",
+    "DESCRIPTION": "API for my playground project",
+    "VERSION": "0.0.1",
+
+    # Other settings
+}
